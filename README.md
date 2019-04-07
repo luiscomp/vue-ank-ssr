@@ -1,9 +1,9 @@
-<div style="text-align: center; margin-top: 50px">
+<div style="margin-top: 50px">
     <p align="center">
         <img src="assets/ank_icon.png?v=4&s=200" width="200" height="200">
     </p>
-    <h1>Vue-Ank-SSR Template</h1>
-    <p>Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS</p>
+    <h1 align="center">Vue-Ank-SSR Template</h1>
+    <p align="center">Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS</p>
 </div>
 
 ### Usage
