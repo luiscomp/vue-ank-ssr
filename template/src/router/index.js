@@ -30,9 +30,9 @@ export function createRouter() {
                 component: () => import('modules/login/Login.vue')
             },
             {
-                path: '/principal',
-                name: 'Principal',
-                component: () => import('modules/principal/Principal.vue'),
+                path: '/main',
+                name: 'main',
+                component: () => import('modules/main/Main.vue'),
                 children: [
 
                 ]

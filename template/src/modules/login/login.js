@@ -3,12 +3,12 @@ import { mapState, mapGetters, mapActions } from 'vuex'
 export default {
     data() {
         return {
-            loginVisivel: false
+            loginVisible: false
         }
     },
     mounted() {
         setTimeout(() => {
-            this.loginVisivel = true
+            this.loginVisible = true
         }, 200)
     },
     computed: {
@@ -21,13 +21,13 @@ export default {
     },
     methods: {
         ...mapActions([
-            'exibirLoading'
+            'showLoading'
         ]),
-        entrar() {
-            this.exibirLoading(this)
+        signIn() {
+            this.showLoading(this)
             setTimeout(() => {
-                this.exibirLoading(this)
-                this.$router.push('/principal')
+                this.showLoading(this)
+                this.$router.push('/main')
             }, 2000)
         }
     }

@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         ...mapActions([
-            'exibirLoading'
+            'showLoading'
         ])
     }
 }

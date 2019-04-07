@@ -13,7 +13,7 @@
         </vs-navbar>
 
         <section el="main" class="ank-main">
-            <vs-sidebar class="ank-main--sidebar" :default-index="menus[0].nome" :reduce="true" static-position hidden-background :parent="$refs.main" color="primary" spacer>
+            <vs-sidebar class="ank-main--sidebar" :default-index="menus[0].name" :reduce="true" static-position hidden-background :parent="$refs.main" color="primary" spacer>
                 <div class="ank-sidebar-header" slot="header">
                     <div class="ank-sidebar-header">
                         <div class="ank-sidebar-header--content">
@@ -23,23 +23,23 @@
                 </div>
 
                 <template v-for="(menu, i) in menus">
-                    <vs-sidebar-group v-if="menu.submenus" :title="$t(menu.nome)" :key="i">
+                    <vs-sidebar-group v-if="menu.submenus" :title="$t(menu.name)" :key="i">
                         <template v-for="(submenu, j) in menu.submenus">
-                            <vs-sidebar-group v-if="submenu.submenus" :title="$t(submenu.nome)" :key="j">
-                                <vs-sidebar-item v-for="(sub_submenu, k) in submenu.submenus" :index="sub_submenu.nome" :icon="sub_submenu.icone" :key="k" :to="sub_submenu.path">
-                                    \{{ $t(sub_submenu.nome) }}
+                            <vs-sidebar-group v-if="submenu.submenus" :title="$t(submenu.name)" :key="j">
+                                <vs-sidebar-item v-for="(sub_submenu, k) in submenu.submenus" :index="sub_submenu.name" :icon="sub_submenu.icon" :key="k" :to="sub_submenu.path">
+                                    \{{ $t(sub_submenu.name) }}
                                 </vs-sidebar-item>
                             </vs-sidebar-group>
 
-                            <vs-sidebar-item v-else :index="submenu.nome" :icon="submenu.icone" :key="j" :to="submenu.path">
-                                \{{ $t(submenu.nome) }}
+                            <vs-sidebar-item v-else :index="submenu.name" :icon="submenu.icon" :key="j" :to="submenu.path">
+                                \{{ $t(submenu.name) }}
                             </vs-sidebar-item>
                         </template>
 
                     </vs-sidebar-group>
 
-                    <vs-sidebar-item v-else :index="menu.nome" :icon="menu.icone" :key="i" :to="menu.path">
-                        \{{ $t(menu.nome) }}
+                    <vs-sidebar-item v-else :index="menu.name" :icon="menu.icon" :key="i" :to="menu.path">
+                        \{{ $t(menu.name) }}
                     </vs-sidebar-item>
                 </template>
 
@@ -55,4 +55,4 @@
     </div>
 </template>
 
-<script src="./principal.js"/>
+<script src="./main.js"/>

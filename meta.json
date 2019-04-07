@@ -1,19 +1,24 @@
 {
     "schema": {
-      "name": {
-        "type": "string",
-        "required": true,
-        "label": "Project name"
-      },
-      "description": {
-        "type": "string",
-        "required": true,
-        "label": "Project description",
-        "default": "Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS"
-      },
-      "author": {
-        "type": "string",
-        "label": "Author"
-      }
+        "name": {
+            "type": "string",
+            "required": true,
+            "label": "Project name"
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "label": "Project description",
+            "default": "Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS"
+        },
+        "author": {
+            "type": "string",
+            "label": "Author"
+        },
+        "port": {
+            "type": "number",
+            "label": "Server Port",
+            "default": 8080
+        }
     }
-  }
+}

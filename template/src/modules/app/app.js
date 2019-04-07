@@ -17,7 +17,7 @@ Vue.use(Vuesax)
 Vue.use(VueTheMask)
 Vue.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyDE50qquhYmJurUoqOiyE2QXZUABbrRtlw'
+        key: ''
     }
 })
 

@@ -16,7 +16,7 @@ export function createStore() {
         },
 
         mutations: {
-            EXIBIR_LOADING(state, root) {
+            SHOW_LOADING(state, root) {
                 if (!state.loading) {
                     root.$vs.loading({
                         type: 'default'
@@ -29,8 +29,8 @@ export function createStore() {
         },
 
         actions: {
-            exibirLoading({ commit }, root) {
-                commit('EXIBIR_LOADING', root)
+            showLoading({ commit }, root) {
+                commit('SHOW_LOADING', root)
             }
         },
 
