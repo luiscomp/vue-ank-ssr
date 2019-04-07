@@ -1,0 +1,12 @@
+{
+    "/": {
+        "title": "{{ name }}",
+        "description": "{{ name }}",
+        "keywords": "{{ name }}"
+    },
+    "/principal": {
+        "title": "{{ name }}",
+        "description": "{{ name }}",
+        "keywords": "{{ name }}"
+    }
+}
