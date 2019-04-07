@@ -1,6 +1,6 @@
 <div style="margin-top: 50px">
     <p align="center">
-        <img src="assets/ank_icon.png?v=4&s=200" width="200" height="200">
+        <img src="assets/ank_icon.png?v=4&s=200" width="200" height="200" alt="Icon modifyed per @luiscomp from a icon made by Freepik from www.flaticon.com">
     </p>
     <h1 align="center">Vue-Ank-SSR Template</h1>
     <p align="center">Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS</p>
