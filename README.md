@@ -1,5 +1,8 @@
-# vue-ank-ssr
-> Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS
+<div style="text-align: center; margin-top: 50px">
+    <img src="assets/ank_icon.png?v=4&s=200" width="200" height="200">
+    <h1>Vue-Ank-SSR Template</h1>
+    <p>Template VueJS-SSR with full Webpack configuration + Vuesax + EsLint + SASS</p>
+</div>
 
 ### Usage
 This is a project template for `vue-cli`.
