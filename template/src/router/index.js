@@ -6,12 +6,12 @@ const meta = require('./meta')
 
 // Function to create routes
 // Is default lazy but can be changed
-function route(path, view) {
+function route(view) {
     return {
-        path: path,
+        path: view.toLowerCase(),
         name: view,
-        meta: meta[path],
-        component: () => import(`modules/${path}/${view}.vue`)
+        meta: meta[view.toLowerCase()],
+        component: () => import(`modules/${view.toLowerCase()}/${view}View.vue`)
     }
 }
 
@@ -27,14 +27,14 @@ export function createRouter() {
             {
                 path: '/',
                 name: 'login',
-                component: () => import('modules/login/Login.vue')
+                component: () => import('modules/login/LoginView.vue')
             },
             {
-                path: '/main',
+                path: '/',
                 name: 'main',
-                component: () => import('modules/main/Main.vue'),
+                component: () => import('modules/main/MainView.vue'),
                 children: [
-
+                    route('Dashboard'),
                 ]
             },
             // Global redirect for 404

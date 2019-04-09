@@ -27,7 +27,7 @@ export default {
             this.showLoading(this)
             setTimeout(() => {
                 this.showLoading(this)
-                this.$router.push('/main')
+                this.$router.push('/dashboard')
             }, 2000)
         }
     }

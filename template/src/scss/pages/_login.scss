@@ -7,7 +7,7 @@
     background-position: center;
     background-color: $cor-primaria
 }
-.login-form {
+.login {
     position: fixed;
     width: 250px;
     top: calc(50% - 125px);
@@ -25,7 +25,7 @@
         opacity: 1;
     }
 
-    &--formulario {
+    .form {
         padding: 30px;
         background-color: $cor-background;
         border: 1px solid $cor-background;
@@ -36,7 +36,7 @@
             width: 100%;
         }
 
-        .formulario-footer {
+        &--footer {
             height: 26px;
         }
     }

@@ -4,7 +4,7 @@
         "description": "{{ name }}",
         "keywords": "{{ name }}"
     },
-    "/principal": {
+    "/dashboard": {
         "title": "{{ name }}",
         "description": "{{ name }}",
         "keywords": "{{ name }}"
