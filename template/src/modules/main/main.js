@@ -2,14 +2,14 @@ export default {
     data() {
         return {
             menus: [
-                { name: 'estatisticas', icon: 'bar_chart', path: '/estatisticas' },
-                { name: 'acompanhamento', icon: 'timer', path: '/acompanhamento' },
+                { name: 'dashboard', icon: 'bar_chart', path: '/dashboard' },
+                { name: 'monitoring', icon: 'timer', path: '/monitoring' },
                 {
-                    name: 'cardapio',
+                    name: 'menu',
                     submenus: [
-                        { name: 'categorias', icon: 'category', path: '/categorias' },
-                        { name: 'produtos', icon: 'fastfood', path: '/produtos' },
-                        { name: 'promocoes', icon: 'local_offer', path: '/promocoes' }
+                        { name: 'categories', icon: 'category', path: '/categories' },
+                        { name: 'products', icon: 'fastfood', path: '/products' },
+                        { name: 'special_offers', icon: 'local_offer', path: '/special_offers' }
                     ]
                 }
             ]
