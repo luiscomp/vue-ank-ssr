@@ -1,9 +1,17 @@
-$cor-primaria: #222f3e;
-$cor-background: #f5f6fa;
-$cor-sombra: #00000030;
-$cor-titulo: #487eb0;
-$cor-texto: #00000070;
+$primary-color: #DE4307;
+$secondary-color: #F29C2B;
+$background-color: #F5F6FA;
+$shadow-color: #00000030;
 
-$cor-track-scroll: #f5f6fa;
-$cor-handle-scroll: $cor-primaria;
-$cor-hover-scroll: $cor-titulo;
+$title-color: #487EB0;
+$text-color: #00000070;
+$card-color: #FFFFFF;
+$border-color: #DDDFE6;
+
+$header-color: #F4F5F9;
+$main-color: #FFFFFF;
+$footer-color: #F4F5F9;
+
+$track-scroll-color: #F5F6Fa;
+$handle-scroll-color: $primary-color;
+$hover-scroll-color: $title-color;
