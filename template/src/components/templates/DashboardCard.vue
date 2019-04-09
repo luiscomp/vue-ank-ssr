@@ -59,8 +59,8 @@ export default {
     height: 120px;
     margin: 0px 16px 10px 0px;
     padding: 16px;
-    background-color: $cor-card;
-    border: 1px solid $cor-card;
+    background-color: $card-color;
+    border: 1px solid $card-color;
     border-radius: 5px;
     -webkit-transition: all 300ms ease-in;
     -moz-transition: all 300ms ease-in;
@@ -73,9 +73,9 @@ export default {
     }
 
     &:hover {
-        -webkit-box-shadow: 0px 4px 25px 0px $cor-sombra;
-        -moz-box-shadow: 0px 4px 25px 0px $cor-sombra;
-        box-shadow: 0px 4px 25px 0px $cor-sombra;
+        -webkit-box-shadow: 0px 4px 25px 0px $shadow-color;
+        -moz-box-shadow: 0px 4px 25px 0px $shadow-color;
+        box-shadow: 0px 4px 25px 0px $shadow-color;
     }
 
     &--header {
