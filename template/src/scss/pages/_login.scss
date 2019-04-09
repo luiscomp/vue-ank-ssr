@@ -40,14 +40,14 @@
             height: 26px;
 
             :first-child {
-                float: right
-            }
-
-            :last-child {
                 float: left;
                 font-size: 14px;
                 line-height: 26px;
-                height: 26px
+                height: 26px;
+            }
+
+            :last-child {
+                float: right;
             }
         }
     }

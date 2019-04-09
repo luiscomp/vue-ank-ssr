@@ -25,7 +25,7 @@ const messages = {
         average_ticket: 'Average Ticket',
         billing: 'Billing',
         orders_with_coupons: 'Orders with Coupons',
-        month: "Month"
+        month: 'Month'
     },
     'pt-br': {
         app_name: '{{ name }}',
@@ -48,7 +48,7 @@ const messages = {
         average_ticket: 'Ticket Médio',
         billing: 'Faturamento',
         orders_with_coupons: 'Pedidos com Cupons',
-        month: "Mês"
+        month: 'Mês'
     }
 }
 
