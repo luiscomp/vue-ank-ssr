@@ -7,8 +7,7 @@
                 </vs-navbar-title>
             </div>
             <vs-navbar-item index="0">
-                <a href="/">\{{ $t('sair') }}</a>
-
+                <a href="/">\{{ $t('logout') }}</a>
             </vs-navbar-item>
         </vs-navbar>
 

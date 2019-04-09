@@ -21,7 +21,7 @@
         left: calc(50% - 175px);
     }
 
-    &__visivel {
+    &__visible {
         opacity: 1;
     }
 
@@ -38,6 +38,17 @@
 
         &--footer {
             height: 26px;
+
+            :first-child {
+                float: right
+            }
+
+            :last-child {
+                float: left;
+                font-size: 14px;
+                line-height: 26px;
+                height: 26px
+            }
         }
     }
 

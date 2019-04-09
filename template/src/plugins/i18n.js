@@ -19,7 +19,13 @@ const messages = {
         menu: 'Menu',
         categories: 'Categories',
         products: 'Products',
-        special_offers: 'Special Offers'
+        special_offers: 'Special Offers',
+        overview: 'Overview',
+        total_orders: 'Total Orders',
+        average_ticket: 'Average Ticket',
+        billing: 'Billing',
+        orders_with_coupons: 'Orders with Coupons',
+        month: "Month"
     },
     'pt-br': {
         app_name: '{{ name }}',
@@ -36,7 +42,13 @@ const messages = {
         menu: 'Cardápio',
         categories: 'Categorias',
         products: 'Produtos',
-        special_offers: 'Promoções'
+        special_offers: 'Promoções',
+        overview: 'Visão Global',
+        total_orders: 'Total Pedidos',
+        average_ticket: 'Ticket Médio',
+        billing: 'Faturamento',
+        orders_with_coupons: 'Pedidos com Cupons',
+        month: "Mês"
     }
 }
 

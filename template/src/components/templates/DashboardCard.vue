@@ -2,7 +2,7 @@
     <div class="card">
         <vs-row class="card--header">
             <vs-col vs-type="flex" vs-justify="flex-start" vs-align="flex-start" vs-w="12">
-                <span class="title">{{ title }}</span>
+                <span class="title">\{{ title }}</span>
             </vs-col>
         </vs-row>
 
@@ -12,7 +12,7 @@
                 <span style="float: right" :style="{ 'color': iconColor }">{{ rentability }}</span>
             </vs-col>
             <vs-col vs-type="flex" vs-justify=" flex-end" vs-align="flex-end" vs-w="6">
-                <span class="value">{{ value }}</span>
+                <span class="value">\{{ value }}</span>
             </vs-col>
         </vs-row>
     </div>
