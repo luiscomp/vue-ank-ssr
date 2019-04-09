@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '~scss/base/_breakpoints.scss';
-@import '~scss/base/_cores.scss';
+@import '~scss/base/_colors.scss';
 
 .card {
     width: 100%;
