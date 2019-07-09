@@ -17,7 +17,7 @@ $ npm run dev
 ```
 
 ### EsLint Configuration for VSCode
-To EsLint work correctly for this template in VsCode, configure your `settings.json` as below
+To EsLint make a beautiful work in this project at VsCode, configure your `settings.json` as below
 ``` json
 {
     "vetur.format.defaultFormatter.js": "vscode-typescript",
